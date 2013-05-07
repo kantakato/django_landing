@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv = "Content-Type" content="text/html; charset=utf-8">
+        <title>My Site</title>
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css" />
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/mysite.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    </head>
+    <body>
+        {% block main %}
+        {% endblock main %}
+    </body>
+    <div class="footer"></div>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+</html>
